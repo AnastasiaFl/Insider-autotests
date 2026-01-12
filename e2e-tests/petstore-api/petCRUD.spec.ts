@@ -21,7 +21,6 @@ test.describe('Petstore API CRUD Tests', () => {
     expect(response.status()).toBe(200);
     const body = await response.json();
     dynamicPetId = body.id;
-    console.log(`Test Execution started with Safe Pet ID: ${dynamicPetId}`);
   });
 
   // --- POSITIVE SCENARIOS ---
