@@ -1,5 +1,10 @@
 **Playwright test automation suite**
-This repository contains automated tests for both Web UI and REST API (Petstore) using Playwright.
+This repository contains Test task:
+
+* UI automation tests that cover Insider site
+* API automation tests that cover pet store API
+* Link to test cases for pencil: https://docs.google.com/spreadsheets/d/1P_NAjQWZeQ7woVfnt8TaeLVcwPSlQyN99sVUo33T2eI/edit?usp=sharing
+* Analysis about item recommendations: https://docs.google.com/document/d/1fK2RxNrQlhxYkNXyYHnxAMitZtflvCBgIzIzP-8r2S4/edit?usp=sharing
 
 **Getting started**
 1. Prerequisites
@@ -47,4 +52,14 @@ This opens a browser window to see tests executing in real-time.
 **Reports**
 After tests complete, a detailed HTML report is generated.
 
+1. To see locally
+
 `npx playwright show-report`
+
+2. To see generated report in CI
+
+* Open https://github.com/AnastasiaFl/Insider-autotests/actions/workflows/playwright.yml
+* Choose workflow run -> click on test
+* Open Upload Playwright report section
+* Download report by link and open HTML file
+
